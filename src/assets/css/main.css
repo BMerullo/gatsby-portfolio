@@ -1,0 +1,97 @@
+/* ######## */
+/* #General# */
+/* ######## */
+
+body {
+  margin: auto;
+  /* width: 70%; */
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  margin-bottom: 5px;
+}
+
+/* ######## */
+/* #NavBar# */
+/* ######## */
+
+header {
+  border-bottom: solid black 2px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: auto;
+}
+
+.logo {
+  height: 45px;
+}
+
+.nav-li {
+  padding-left: 25px;
+  font-weight: 900;
+}
+
+/* ##Toggle## */
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 35px;
+  height: 20px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: black;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 2px;
+
+  bottom: 2px;
+  background-color: #d8d7d7;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #d8d7d7;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(15px);
+  -ms-transform: translateX(15px);
+  transform: translateX(15px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+  background-color: white;
+}
