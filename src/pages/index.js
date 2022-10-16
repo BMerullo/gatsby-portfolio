@@ -6,7 +6,7 @@ export default function Home() {
     <Layout>
       <main id="home-page">
         <section className="about-txt">
-          <h1>hello there</h1>
+          <h1>Hello there</h1>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
