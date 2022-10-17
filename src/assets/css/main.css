@@ -44,6 +44,8 @@ a {
 
 header {
   border-bottom: solid black 2px;
+  transition: 900ms, ease-in-out;
+  transition-duration: 900ms;
 }
 
 .navbar {
