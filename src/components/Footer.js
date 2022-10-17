@@ -4,7 +4,7 @@ import React from "react"
 import projectImg from "../assets/images/project-img.jpeg"
 import emailImg from "../assets/images/email-img.png"
 import linkedinImg from "../assets/images/linkedin-img.png"
-import githubImg from "../assets/images/github-img.jpg"
+import githubImg from "../assets/images/github-img.png"
 import { Link } from "gatsby"
 
 const Footer = () => {

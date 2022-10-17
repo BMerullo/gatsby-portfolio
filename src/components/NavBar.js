@@ -2,10 +2,10 @@ import React, { useState } from "react"
 import { Link } from "gatsby"
 import logo from "../assets/images/logo.png"
 import hamburgerImg from "../assets/images/hamburger.png"
-
-import emailImg from "../assets/images/email-img.png"
+import projectImg from "../assets/images/project-img.jpeg"
+import emailImg from "../assets/images/email-img.jpeg"
 import linkedinImg from "../assets/images/linkedin-img.png"
-import githubImg from "../assets/images/github-img.jpg"
+import githubImg from "../assets/images/github-img.png"
 
 const NavBar = () => {
   const [hamburger, setHamburger] = useState(false)
@@ -52,7 +52,7 @@ const NavBar = () => {
       {hamburger === true ? (
         <section className="nav-mobile">
           <Link className="mobile-page-tab" to="/projects">
-            <h2>Projects</h2>
+            <button className="link-btn">projects</button>
           </Link>
           <ul className="mobile-nav-menu">
             <li>

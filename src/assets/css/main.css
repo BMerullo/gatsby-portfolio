@@ -5,7 +5,7 @@
 body {
   margin: auto;
   width: 100%;
-  background-color: silver;
+  background-color: antiquewhite;
 }
 
 main {
@@ -44,7 +44,6 @@ a {
 
 header {
   border-bottom: solid black 2px;
-  transition: 9ms;
 }
 
 .navbar {
@@ -67,16 +66,14 @@ header {
   height: 20px;
 }
 
-.mobile-nav-menu-off {
-  display: none;
-}
-
 .mobile-img {
-  height: 50px;
+  height: 40px;
   margin-bottom: 30px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.mobile-img:hover {
+.mobile-img:checked {
   transform: scale(1.5);
 }
 
@@ -84,7 +81,17 @@ header {
   display: flex;
   justify-content: space-around;
   font-weight: 900;
-  border-bottom: solid black 1px;
+  /* border-bottom: solid black 1px; */
+}
+
+.link-btn {
+  margin: 20px 0px 30px 0px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: larger;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-style: none;
+  background-color: #b2c0c7;
 }
 
 @media only screen and (max-width: 500px) {
