@@ -1,6 +1,4 @@
 import React from "react"
-// import linkedinImg from "../images/linkedin-img.png"
-// import githubImg from "../images/github-img.png"
 import projectImg from "../assets/images/project-img.jpeg"
 import emailImg from "../assets/images/email-img.png"
 import linkedinImg from "../assets/images/linkedin-img.png"
@@ -19,29 +17,28 @@ const Footer = () => {
         </li>
         <li className="footer-li">
           <a className="nav-link" href="#">
-            <img className="footer-img" src={emailImg} alt="linkedin logo" />
+            <img className="footer-img" src={emailImg} alt="email" />
             email
           </a>
         </li>
       </ul>
       <ul>
         <li className="footer-li">
-          <li>
-            <a
-              className="nav-link footer-link-flex"
-              href="https://github.com/BMerullo"
-            >
-              <img className="footer-img" src={githubImg} alt="github logo" />
-              github
-            </a>
-          </li>
+          <a
+            className="nav-link footer-link-flex"
+            href="https://github.com/BMerullo"
+          >
+            <img className="footer-img" src={githubImg} alt="github" />
+            github
+          </a>
         </li>
+
         <li className="footer-li">
           <a
             className="nav-link"
             href="https://www.linkedin.com/in/bobmerullo/"
           >
-            <img className="footer-img" src={linkedinImg} alt="linkedin logo" />
+            <img className="footer-img" src={linkedinImg} alt="linkedin" />
             linkedin
           </a>
         </li>
