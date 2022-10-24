@@ -2,13 +2,13 @@ import React, { useState } from "react"
 import { Link } from "gatsby"
 import logo from "../assets/images/logo.png"
 import hamburgerImg from "../assets/images/hamburger.png"
-import projectImg from "../assets/images/project-img.jpeg"
 import emailImg from "../assets/images/email-img.jpeg"
 import linkedinImg from "../assets/images/linkedin-img.png"
 import githubImg from "../assets/images/github-img.png"
 
 const NavBar = () => {
   const [hamburger, setHamburger] = useState(false)
+
   const hamburgerHandler = () => {
     setHamburger(!hamburger)
   }
@@ -20,7 +20,7 @@ const NavBar = () => {
           <img className="logo" src={logo} alt="logo" />
         </Link>
         <ul className="nav-desktop">
-          <li className="nav-li">connect</li>
+          <li className=" nav-li">contact</li>
           <li className="nav-li">
             <Link to="/projects">projects</Link>
           </li>
