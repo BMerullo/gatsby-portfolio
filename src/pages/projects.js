@@ -2,8 +2,9 @@ import React from "react"
 import Layout from "../components/Layout"
 
 const projects = () => {
+  const link = "home"
   return (
-    <Layout>
+    <Layout link={link}>
       <main id="projects">
         <section>
           <h1>hello there</h1>

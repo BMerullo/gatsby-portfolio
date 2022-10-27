@@ -6,8 +6,9 @@ import emailImg from "../assets/images/email-img.jpeg"
 import linkedinImg from "../assets/images/linkedin-img.png"
 import githubImg from "../assets/images/github-img.png"
 
-const NavBar = () => {
+const NavBar = props => {
   const [hamburger, setHamburger] = useState(false)
+  const [open, setOpen] = useState(false)
 
   const hamburgerHandler = () => {
     setHamburger(!hamburger)
@@ -20,9 +21,53 @@ const NavBar = () => {
           <img className="logo" src={logo} alt="logo" />
         </Link>
         <ul className="nav-desktop">
-          <li className=" nav-li">contact</li>
+          <li>
+            <p className="nav-li navbar-link" onClick={() => setOpen(!open)}>
+              contacts
+            </p>
+            {open && (
+              <div className="dropdown" onMouseLeave={() => setOpen(!open)}>
+                <ul className="dropdown-list">
+                  <li className="dropdown-list-item">
+                    <a className="nav-link dropdown-link" href="#">
+                      <img className="footer-img" src={emailImg} alt="email" />
+                      email
+                    </a>
+                  </li>
+                  <li className="dropdown-list-item">
+                    <a
+                      className="nav-link  dropdown-link"
+                      href="https://github.com/BMerullo"
+                    >
+                      <img
+                        className="footer-img"
+                        src={githubImg}
+                        alt="github"
+                      />
+                      github
+                    </a>
+                  </li>
+                  <li className="dropdown-list-item">
+                    <a
+                      className="nav-link dropdown-link"
+                      href="https://www.linkedin.com/in/bobmerullo/"
+                    >
+                      <img
+                        className="footer-img"
+                        src={linkedinImg}
+                        alt="linkedin"
+                      />
+                      linkedin
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            )}
+          </li>
           <li className="nav-li">
-            <Link to="/projects">projects</Link>
+            <Link className="navbar-link" to="/projects">
+              projects
+            </Link>
           </li>
           <li className="nav-li">
             <label className="switch">
