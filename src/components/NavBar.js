@@ -64,8 +64,17 @@ const NavBar = props => {
               </div>
             )}
           </li>
-          <li className="nav-li">
-            <Link className="navbar-link" to="/projects">
+          <li className="nav-li" activeClassName="active-link">
+            <Link className="navbar-link" to="/" activeClassName="active-link">
+              home
+            </Link>
+          </li>
+          <li className="nav-li" activeClassName="active-link">
+            <Link
+              className="navbar-link"
+              to="/projects"
+              activeClassName="active-link"
+            >
               projects
             </Link>
           </li>
@@ -96,9 +105,22 @@ const NavBar = props => {
       </nav>
       {hamburger === true ? (
         <section className="nav-mobile">
-          <Link className="mobile-page-tab" to="/projects">
-            <button className="link-btn">projects</button>
-          </Link>
+          <mobileNav>
+            <Link
+              className="mobile-page-tab"
+              to="/"
+              activeClassName="active-link-mobile"
+            >
+              home
+            </Link>
+            <Link
+              className="mobile-page-tab"
+              to="/projects"
+              activeClassName="active-link-mobile"
+            >
+              projects
+            </Link>
+          </mobileNav>
           <ul className="mobile-nav-menu">
             <li>
               <a className="nav-link" href="#">

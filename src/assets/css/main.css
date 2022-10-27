@@ -84,7 +84,15 @@ header {
   display: flex;
   justify-content: space-around;
   font-weight: 900;
+  font-size: larger;
   /* border-bottom: solid black 1px; */
+}
+
+mobileNav {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px 50px 20px 50px;
+  border-top: solid black 2px;
 }
 
 .link-btn {
@@ -129,8 +137,17 @@ header {
   cursor: pointer;
 }
 
+.active-link {
+  color: dodgerblue;
+}
+
+.active-link-mobile {
+  color: dodgerblue;
+  text-decoration: underline;
+}
+
 .navbar-link:hover {
-  color: #666;
+  color: dodgerblue;
 }
 
 /* ##Dropdown## */
