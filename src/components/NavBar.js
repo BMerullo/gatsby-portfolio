@@ -2,7 +2,7 @@ import React, { useState } from "react"
 import { Link } from "gatsby"
 import logo from "../assets/images/logo.png"
 import hamburgerImg from "../assets/images/hamburger.png"
-import emailImg from "../assets/images/email-img.jpeg"
+import emailImg from "../assets/images/email-img.png"
 import linkedinImg from "../assets/images/linkedin-img.png"
 import githubImg from "../assets/images/github-img.png"
 
@@ -78,12 +78,12 @@ const NavBar = props => {
               projects
             </Link>
           </li>
-          <li className="nav-li">
+          {/* <li className="nav-li">
             <label className="switch">
               <input type="checkbox"></input>
               <span className="slider round"></span>
             </label>
-          </li>
+          </li> */}
         </ul>
         <ul className="nav-mobile">
           <li className="nav-li-mobile">

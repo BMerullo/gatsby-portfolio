@@ -6,6 +6,9 @@ body {
   margin: auto;
   width: 100%;
   height: 100vh;
+  font-family: "Carrois Gothic", sarif;
+  /* background-color: #;
+  color: #f19666; */
 }
 
 main {
@@ -55,6 +58,11 @@ header {
   width: 70%;
   margin: auto;
   position: relative;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
 }
 
 .nav-mobile {
@@ -147,7 +155,8 @@ mobileNav {
 }
 
 .navbar-link:hover {
-  color: dodgerblue;
+  /* color: dodgerblue; */
+  text-decoration-line: underline;
 }
 
 /* ##Dropdown## */
@@ -174,6 +183,9 @@ mobileNav {
 .dropdown-list-item:hover {
   scale: 1.1;
 }
+/* .dropdown-link:hover {
+  color: dodgerblue;
+} */
 
 .dropdown-link {
   color: white;
@@ -297,5 +309,4 @@ footer {
 /* ######## */
 
 #projects {
-  background-color: tomato;
 }

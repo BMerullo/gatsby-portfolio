@@ -10,7 +10,7 @@ const Footer = () => {
     <footer>
       <ul>
         <li className="footer-li">
-          <Link to="/projects">
+          <Link to="/projects" className="nav-link">
             <img className="footer-img" src={projectImg} alt="" />
             projects
           </Link>

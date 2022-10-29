@@ -7,7 +7,7 @@ const projects = () => {
     <Layout link={link}>
       <main id="projects">
         <section>
-          <h1>hello there</h1>
+          <h1>projects</h1>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
