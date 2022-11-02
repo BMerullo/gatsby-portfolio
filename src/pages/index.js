@@ -2,10 +2,12 @@ import React from "react"
 import FeaturedProjects from "../components/FeaturedProjects"
 import Layout from "../components/Layout"
 import computer from "../assets/images/computer.png"
+import SEO from "../components/SEO"
 
 export default function Home() {
   return (
     <Layout>
+      <SEO title="Home" description="This is the home page" />
       <main id="home-page">
         <section className="about-txt">
           <h1>Hello there,</h1>
