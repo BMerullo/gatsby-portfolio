@@ -1,6 +1,7 @@
 import React from "react"
 import FeaturedProjects from "../components/FeaturedProjects"
 import Layout from "../components/Layout"
+import computer from "../assets/images/computer.png"
 
 export default function Home() {
   return (
@@ -17,6 +18,11 @@ export default function Home() {
             pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
             culpa qui officia deserunt mollit anim id est laborum.
           </h3>
+          <div className="color-box-container">
+            <div className="color-box">
+              <img src={computer} alt="computer" className="computer-img" />
+            </div>
+          </div>
         </section>
         <aside className="featured-scroll">
           <FeaturedProjects />

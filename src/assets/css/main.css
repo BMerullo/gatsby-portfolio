@@ -287,6 +287,27 @@ footer {
   display: flex;
 }
 
+.color-box-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50vh;
+}
+
+.color-box {
+  border-radius: 10px 100px / 120px;
+  background-color: dodgerblue;
+  height: 30vh;
+  width: 55%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.computer-img {
+  height: 25vh;
+}
+
 .about-txt {
   flex: 3;
   padding-right: 100px;
@@ -321,11 +342,12 @@ footer {
   text-align: center;
   font-size: x-large;
   color: white;
-  cursor: pointer;
+  cursor: default;
   opacity: 0;
 }
 
 .project-info:hover {
+  transition: opacity 0.8s;
   opacity: 1;
 }
 
@@ -333,7 +355,7 @@ footer {
   display: flex;
   justify-content: flex-start;
   margin: auto;
-  width: 80%;
+  width: 90%;
 }
 
 .tool-box {
@@ -360,12 +382,45 @@ footer {
   scale: 1.1;
 }
 
+@media only screen and (max-width: 400px) {
+  .project-info {
+    font-size: xx-small;
+  }
+  .featured-img {
+    height: 35vh;
+  }
+}
+
 @media only screen and (max-width: 500px) {
   #home-page {
     display: block;
   }
   .about-txt {
     padding-right: 0px;
+  }
+  .project-info {
+    font-size: small;
+  }
+  .color-box {
+    width: 85%;
+  }
+  .computer-img {
+    height: 20vh;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  #home-page {
+    display: block;
+    margin: auto;
+  }
+  .project-info {
+    font-size: small;
+  }
+  .tool-box-container {
+    justify-content: space-around;
+    width: 50%;
+    padding-bottom: 20px;
   }
 }
 
@@ -377,4 +432,25 @@ footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 4%;
+}
+
+@media only screen and (max-width: 1000px) {
+  .all-project {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .all-project {
+    grid-template-columns: 1fr;
+    gap: 2%;
+  }
+}
+
+.project-flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  width: 20%;
+  margin: auto;
 }

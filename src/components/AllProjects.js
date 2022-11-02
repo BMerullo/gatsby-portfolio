@@ -1,14 +1,12 @@
 import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
 import { GatsbyImage } from "gatsby-plugin-image"
-import codeImg from "../assets/images/code.webp"
+import codeImg from "../assets/images/code.ico"
+import linkImg from "../assets/images/link.png"
 
 export const query = graphql`
   query {
-    allContentfulProjects(
-      sort: { fields: contentful_id, order: DESC }
-      filter: { featured: { eq: true } }
-    ) {
+    allContentfulProjects(sort: { fields: contentful_id, order: DESC }) {
       nodes {
         id
         title
@@ -45,6 +43,7 @@ const AllProjects = () => {
             code,
           } = item
           const codePic = codeImg
+          const linkPic = linkImg
           return (
             <div className="featured-img-container">
               <GatsbyImage
@@ -52,22 +51,28 @@ const AllProjects = () => {
                 alt={title}
                 className="featured-img"
               />
-              <a href={url}>
-                <div className="project-info">
-                  <h2>{title}</h2>
-                  <p>{description}</p>
-                  <div className="tool-box-container">
-                    {tools.map((tool, index) => {
-                      return <div className="tool-box">{tool}</div>
-                    })}
-                  </div>
+
+              <div className="project-info">
+                <h2>{title}</h2>
+                <p>{description}</p>
+                <div className="tool-box-container">
+                  {tools.map((tool, index) => {
+                    return <div className="tool-box">{tool}</div>
+                  })}
+                </div>
+                <div className="project-flex">
                   {code ? (
                     <a href={code}>
                       <img src={codePic} alt="code" className="code-img" />
                     </a>
                   ) : null}
+                  {url ? (
+                    <a href={url}>
+                      <img src={linkPic} alt="link" className="code-img" />
+                    </a>
+                  ) : null}
                 </div>
-              </a>
+              </div>
             </div>
           )
         })}
