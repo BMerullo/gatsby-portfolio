@@ -15,6 +15,7 @@ main {
   margin: auto;
   padding-top: 30px;
   width: 70%;
+  height: 80vh;
 }
 
 ul {
@@ -291,8 +292,72 @@ footer {
   padding-right: 100px;
 }
 
-.skills-scroll {
+.featured-scroll {
   flex: 2;
+}
+
+.featured-img-container {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 1rem;
+  position: relative;
+  display: flex;
+  margin: 30px 0px;
+}
+
+.featured-img {
+  height: 30vh;
+  border-radius: 1rem;
+  position: relative;
+}
+
+.project-info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 1rem;
+  text-align: center;
+  font-size: x-large;
+  color: white;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.project-info:hover {
+  opacity: 1;
+}
+
+.tool-box-container {
+  display: flex;
+  justify-content: flex-start;
+  margin: auto;
+  width: 80%;
+}
+
+.tool-box {
+  color: white;
+  margin: 10px;
+  padding: 2px 10px;
+  background-color: dodgerblue;
+  border-radius: 1rem;
+  justify-content: center;
+  font-size: small;
+}
+
+.code-img-flex-container {
+  display: flex;
+  padding: 0px 30px;
+}
+
+.code-img {
+  height: 20px;
+  padding-top: 5px;
+}
+
+.code-img:hover {
+  scale: 1.1;
 }
 
 @media only screen and (max-width: 500px) {
@@ -308,5 +373,8 @@ footer {
 /* #Projects Page# */
 /* ######## */
 
-#projects {
+.all-project {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 4%;
 }
