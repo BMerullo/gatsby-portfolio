@@ -7,8 +7,6 @@ body {
   width: 100%;
   height: 100vh;
   font-family: "Carrois Gothic", sarif;
-  /* background-color: #;
-  color: #f19666; */
 }
 
 main {
@@ -39,6 +37,12 @@ a {
   ul {
     justify-content: space-evenly;
     margin-top: 30px;
+  }
+}
+
+@media only screen and (max-height: 900px) {
+  main {
+    height: 150vh;
   }
 }
 
@@ -412,6 +416,9 @@ footer {
   .computer-img {
     height: 20vh;
   }
+  .featured-img-container {
+    height: 40vh;
+  }
 }
 
 @media only screen and (max-width: 1300px) {
@@ -449,6 +456,15 @@ footer {
   .all-project {
     grid-template-columns: 1fr;
     gap: 2%;
+  }
+}
+
+@media only screen and (max-height: 500px) {
+  .featured-img-container {
+    height: 35vh;
+  }
+  .project-info {
+    font-size: x-small;
   }
 }
 
