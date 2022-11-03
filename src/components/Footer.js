@@ -3,6 +3,7 @@ import projectImg from "../assets/images/project-img.jpeg"
 import emailImg from "../assets/images/email-img.png"
 import linkedinImg from "../assets/images/linkedin-img.png"
 import githubImg from "../assets/images/github-img.png"
+import homeImg from "../assets/images/home.jpeg"
 import { Link } from "gatsby"
 
 const Footer = () => {
@@ -10,8 +11,22 @@ const Footer = () => {
     <footer>
       <ul>
         <li className="footer-li">
-          <Link to="/projects" className="nav-link">
-            <img className="footer-img" src={projectImg} alt="" />
+          <Link
+            to="/"
+            className="nav-link"
+            activeClassName="active-footer-link"
+          >
+            <img className="footer-img" src={homeImg} alt="house" />
+            home
+          </Link>
+        </li>
+        <li className="footer-li">
+          <Link
+            to="/projects"
+            className="nav-link"
+            activeClassName="active-footer-link"
+          >
+            <img className="footer-img" src={projectImg} alt="folder" />
             projects
           </Link>
         </li>

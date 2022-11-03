@@ -273,6 +273,10 @@ footer {
   margin-right: 7px;
 }
 
+.active-footer-link {
+  text-decoration: underline;
+}
+
 @media only screen and (max-width: 500px) {
   footer {
     display: none;
