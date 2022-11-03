@@ -394,6 +394,7 @@ footer {
 @media only screen and (max-width: 400px) {
   .project-info {
     font-size: xx-small;
+    border-radius: 1rem;
   }
   .featured-img {
     height: 35vh;
@@ -409,6 +410,7 @@ footer {
   }
   .project-info {
     font-size: small;
+    border-radius: 1rem;
   }
   .color-box {
     width: 85%;
