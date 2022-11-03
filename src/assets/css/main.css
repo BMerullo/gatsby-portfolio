@@ -398,6 +398,7 @@ footer {
   }
   .featured-img {
     height: 35vh;
+    border-radius: 1rem;
   }
 }
 
@@ -420,6 +421,9 @@ footer {
   }
   .featured-img-container {
     height: 40vh;
+  }
+  .featured-img {
+    border-radius: 1rem;
   }
 }
 
