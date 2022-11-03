@@ -42,7 +42,7 @@ a {
 
 @media only screen and (max-height: 900px) {
   main {
-    height: 150vh;
+    height: none;
   }
 }
 
