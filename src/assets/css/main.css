@@ -42,7 +42,7 @@ a {
 
 @media only screen and (max-height: 900px) {
   main {
-    height: none;
+    height: 100%;
   }
 }
 
@@ -424,6 +424,7 @@ footer {
   }
   .featured-img {
     border-radius: 1rem;
+    margin-top: 20px;
   }
 }
 
