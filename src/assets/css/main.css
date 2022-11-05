@@ -392,6 +392,10 @@ footer {
   scale: 1.1;
 }
 
+.gatsby-image-wrapper .gatsby-image-wrapper-constrained .featured-img {
+  border-radius: 1rem;
+}
+
 @media only screen and (max-width: 400px) {
   .project-info {
     font-size: xx-small;
