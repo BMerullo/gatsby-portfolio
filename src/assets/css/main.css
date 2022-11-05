@@ -425,8 +425,9 @@ footer {
     height: 35vh;
     border-radius: 1rem;
   }
-  /* .featured-img {
-  } */
+  .featured-img {
+    border-radius: 1rem;
+  }
 }
 
 @media only screen and (max-width: 1300px) {
