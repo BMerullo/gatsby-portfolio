@@ -393,6 +393,9 @@ footer {
 }
 
 @media only screen and (max-width: 400px) {
+  .featured-img-container {
+    margin: 0px;
+  }
   .project-info {
     font-size: xx-small;
   }
@@ -415,7 +418,7 @@ footer {
     height: 20vh;
   }
   .featured-img-container {
-    margin-top: 0px;
+    margin: 0px;
     border-radius: 1rem;
   }
   .featured-img {
