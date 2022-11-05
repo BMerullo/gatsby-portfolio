@@ -449,6 +449,10 @@ footer {
 /* #Projects Page# */
 /* ######## */
 
+.project-container {
+  padding-bottom: 20px;
+}
+
 .all-project {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
