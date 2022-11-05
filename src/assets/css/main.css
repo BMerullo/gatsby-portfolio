@@ -423,11 +423,10 @@ footer {
   }
   .featured-img-container {
     height: 35vh;
-  }
-  .featured-img {
     border-radius: 1rem;
-    /* margin-top: 20px; */
   }
+  /* .featured-img {
+  } */
 }
 
 @media only screen and (max-width: 1300px) {
