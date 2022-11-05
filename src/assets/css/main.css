@@ -13,7 +13,7 @@ main {
   margin: auto;
   padding-top: 30px;
   width: 70%;
-  height: 85vh;
+  /* height: 200vh; */
 }
 
 ul {
@@ -466,12 +466,17 @@ footer {
   }
 }
 
-@media only screen and (max-height: 500px) {
-  .featured-img-container {
-    height: 35vh;
-  }
+/* @media only screen and (max-height: 500px) {
   .project-info {
     font-size: x-small;
+  }
+} */
+@media only screen and (max-height: 1000px) {
+  .featured-img-container {
+    height: 300px;
+  }
+  .featured-img {
+    height: 100%;
   }
 }
 

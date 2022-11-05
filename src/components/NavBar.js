@@ -86,12 +86,12 @@ const NavBar = props => {
           </li> */}
         </ul>
         <ul className="nav-mobile">
-          <li className="nav-li-mobile">
+          {/* <li className="nav-li-mobile">
             <label className="switch">
               <input type="checkbox"></input>
               <span className="slider round"></span>
             </label>
-          </li>
+          </li> */}
           <li className="nav-li-mobile">
             <input
               className="menu-btn-img"
