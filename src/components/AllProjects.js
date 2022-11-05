@@ -62,13 +62,15 @@ const AllProjects = () => {
                 </div>
                 <div className="project-flex">
                   {code ? (
-                    <a href={code}>
+                    <a href={code} className="info-link">
                       <img src={codePic} alt="code" className="code-img" />
+                      Code
                     </a>
                   ) : null}
                   {url ? (
-                    <a href={url}>
+                    <a href={url} className="info-link">
                       <img src={linkPic} alt="link" className="code-img" />
+                      Visit
                     </a>
                   ) : null}
                 </div>

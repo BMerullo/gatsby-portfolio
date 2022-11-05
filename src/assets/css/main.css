@@ -378,6 +378,13 @@ footer {
   font-size: small;
 }
 
+.project-flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 40%;
+  margin: auto;
+}
 .code-img-flex-container {
   display: flex;
   padding: 0px 30px;
@@ -386,10 +393,16 @@ footer {
 .code-img {
   height: 20px;
   padding-top: 5px;
+  margin-right: 3px;
 }
 
-.code-img:hover {
+.info-link:hover {
   scale: 1.1;
+}
+
+.info-link {
+  color: white;
+  font-size: medium;
 }
 
 @media only screen and (max-width: 400px) {
@@ -484,12 +497,4 @@ footer {
   .featured-img {
     height: 100%;
   }
-}
-
-.project-flex {
-  display: flex;
-  justify-content: space-around;
-  align-items: baseline;
-  width: 20%;
-  margin: auto;
 }
