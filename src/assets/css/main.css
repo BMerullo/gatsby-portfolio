@@ -424,6 +424,7 @@ footer {
   }
   .featured-img-container {
     margin-top: 20px;
+    border-radius: 0px;
   }
   .featured-img {
     border-radius: 0px;
@@ -467,8 +468,7 @@ footer {
 
 @media only screen and (max-width: 600px) {
   .all-project {
-    grid-template-columns: 1fr;
-    gap: 2%;
+    display: block;
   }
 }
 
