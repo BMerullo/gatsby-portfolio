@@ -31,7 +31,7 @@ const Footer = () => {
           </Link>
         </li>
         <li className="footer-li">
-          <a className="nav-link" href="#">
+          <a className="nav-link" href="mailto: bmerullo85@gmail.com">
             <img className="footer-img" src={emailImg} alt="email" />
             email
           </a>

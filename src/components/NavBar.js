@@ -29,7 +29,10 @@ const NavBar = props => {
               <div className="dropdown" onMouseLeave={() => setOpen(!open)}>
                 <ul className="dropdown-list">
                   <li className="dropdown-list-item">
-                    <a className="nav-link dropdown-link" href="#">
+                    <a
+                      className="nav-link dropdown-link"
+                      href="mailto: bmerullo85@gmail.com"
+                    >
                       <img className="footer-img" src={emailImg} alt="email" />
                       email
                     </a>
