@@ -422,10 +422,10 @@ footer {
   }
   .featured-img-container {
     height: 35vh;
-    /* border-radius: 1rem; */
+    border-radius: 1rem;
   }
   .featured-img {
-    /* border-radius: 1rem; */
+    border-radius: 1rem;
   }
 }
 
