@@ -392,19 +392,10 @@ footer {
   scale: 1.1;
 }
 
-.gatsby-image-wrapper .gatsby-image-wrapper-constrained .featured-img {
-  border-radius: 1rem;
-}
-
 @media only screen and (max-width: 400px) {
   .project-info {
     font-size: xx-small;
-    /* border-radius: 1rem; */
   }
-  /* .featured-img {
-    height: 35vh;
-    border-radius: 1rem;
-  } */
 }
 
 @media only screen and (max-width: 500px) {
@@ -416,7 +407,6 @@ footer {
   }
   .project-info {
     font-size: small;
-    /* border-radius: 1rem; */
   }
   .color-box {
     width: 85%;
@@ -425,7 +415,7 @@ footer {
     height: 20vh;
   }
   .featured-img-container {
-    height: 35vh;
+    margin-top: 0px;
     border-radius: 1rem;
   }
   .featured-img {
