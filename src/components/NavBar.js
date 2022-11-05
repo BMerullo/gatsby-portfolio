@@ -126,7 +126,7 @@ const NavBar = props => {
           </mobileNav>
           <ul className="mobile-nav-menu">
             <li>
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="mailto: bmerullo85@gmail.com">
                 <img
                   className="mobile-img"
                   src={emailImg}
