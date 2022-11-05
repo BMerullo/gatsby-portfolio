@@ -396,8 +396,12 @@ footer {
   .featured-img-container {
     margin-top: 20px;
   }
+  .featured-img {
+    border-radius: 0px;
+  }
   .project-info {
     font-size: xx-small;
+    border-radius: 0px;
   }
 }
 
@@ -410,6 +414,7 @@ footer {
   }
   .project-info {
     font-size: small;
+    border-radius: 0px;
   }
   .color-box {
     width: 85%;
@@ -421,7 +426,7 @@ footer {
     margin-top: 20px;
   }
   .featured-img {
-    border-radius: 16px;
+    border-radius: 0px;
   }
 }
 
