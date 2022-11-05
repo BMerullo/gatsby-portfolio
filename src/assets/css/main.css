@@ -28,6 +28,10 @@ a {
   color: black;
 }
 
+GatsbyImage {
+  border-radius: 1rem;
+}
+
 @media only screen and (max-width: 500px) {
   main {
     width: 85%;
