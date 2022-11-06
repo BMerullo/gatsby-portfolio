@@ -440,6 +440,7 @@ footer {
     border-radius: 0px;
     padding: 2px;
     background-color: #333;
+    height: 250px;
   }
   .featured-img {
     border-radius: 0px;
@@ -491,6 +492,11 @@ footer {
   .project-info {
     font-size: x-small;
     border-radius: 0px;
+  }
+  .featured-img-container {
+    padding: 2px;
+    background-color: #333;
+    height: 250px;
   }
 }
 @media only screen and (max-height: 1000px) {
