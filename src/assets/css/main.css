@@ -497,6 +497,7 @@ footer {
     padding: 2px;
     background-color: #333;
     height: 250px;
+    border-radius: 0px;
   }
 }
 @media only screen and (max-height: 1000px) {
