@@ -408,6 +408,7 @@ footer {
 @media only screen and (max-width: 400px) {
   .featured-img-container {
     margin-top: 20px;
+    height: 200px;
   }
   .featured-img {
     border-radius: 0px;
@@ -440,7 +441,7 @@ footer {
     border-radius: 0px;
     padding: 2px;
     background-color: #333;
-    height: 250px;
+    height: 200px;
   }
   .featured-img {
     border-radius: 0px;
@@ -459,6 +460,9 @@ footer {
     justify-content: space-around;
     width: 50%;
     padding-bottom: 20px;
+  }
+  .featured-img-container {
+    border-radius: 0px;
   }
 }
 
