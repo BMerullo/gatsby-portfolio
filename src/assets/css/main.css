@@ -417,18 +417,13 @@ footer {
     font-size: xx-small;
     border-radius: 0px;
   }
-  .about-text {
-    flex: 1;
-  }
 }
 
 @media only screen and (max-width: 500px) {
   #home-page {
     display: block;
   }
-  .about-txt {
-    padding-right: 0px;
-  }
+
   .project-info {
     font-size: small;
     border-radius: 0px;
@@ -449,9 +444,6 @@ footer {
   .featured-img {
     border-radius: 0px;
   }
-  .about-text {
-    flex: 1;
-  }
 }
 
 @media only screen and (max-width: 1300px) {
@@ -459,9 +451,7 @@ footer {
     display: block;
     margin: auto;
   }
-  /* .project-info {
-    font-size: small;
-  } */
+
   .tool-box-container {
     justify-content: space-around;
     width: 50%;
@@ -473,8 +463,8 @@ footer {
   .project-info {
     border-radius: 0px;
   }
-  .about-text {
-    flex: 1;
+  .about-txt {
+    padding-right: 0px;
   }
 }
 
