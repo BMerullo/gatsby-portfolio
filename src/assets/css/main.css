@@ -417,6 +417,9 @@ footer {
     font-size: xx-small;
     border-radius: 0px;
   }
+  .about-text {
+    flex: 1;
+  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -446,6 +449,9 @@ footer {
   .featured-img {
     border-radius: 0px;
   }
+  .about-text {
+    flex: 1;
+  }
 }
 
 @media only screen and (max-width: 1300px) {
@@ -463,6 +469,12 @@ footer {
   }
   .featured-img-container {
     border-radius: 0px;
+  }
+  .project-info {
+    border-radius: 0px;
+  }
+  .about-text {
+    flex: 1;
   }
 }
 
