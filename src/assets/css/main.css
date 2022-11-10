@@ -332,6 +332,7 @@ footer {
   display: flex;
   margin: 30px 0px;
   border-radius: 1rem;
+  height: 20vh;
 }
 
 .featured-img {
@@ -502,7 +503,7 @@ footer {
   .featured-img-container {
     padding: 2px;
     background-color: #333;
-    height: 250px;
+    height: 200px;
     border-radius: 0px;
   }
 }
