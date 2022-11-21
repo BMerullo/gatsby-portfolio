@@ -7,6 +7,7 @@ body {
   width: 100%;
   height: 100vh;
   font-family: "Carrois Gothic", sarif;
+  /* background-color: #d6dbe3; */
 }
 
 main {
@@ -486,6 +487,10 @@ footer {
 @media only screen and (max-width: 1300px) {
   .all-project {
     grid-template-columns: 1fr 1fr;
+  }
+  .project-info {
+    font-size: x-small;
+    border-radius: 0px;
   }
 }
 
