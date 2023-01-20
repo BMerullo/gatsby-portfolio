@@ -333,7 +333,7 @@ footer {
   display: flex;
   margin: 30px 0px;
   border-radius: 1rem;
-  height: 20vh;
+  height: 30vh;
 }
 
 .featured-img {
@@ -494,7 +494,7 @@ footer {
   }
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1500px) {
   .all-project {
     display: block;
   }
