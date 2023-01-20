@@ -17,7 +17,7 @@ export default function Home() {
             freelance developer. As a web developer I have a passion for
             bringing ideas to life through intuitive and esthetically pleasing
             applications. Throughout my professional career I have valued
-            creating and developing projects and ideas in conjunction with the
+            achieving goals and completing projects in collaboration with the
             people around me. My creative interests and collaborative nature
             extends beyond Web Development in many ways, most of all in my
             interest in music as a guitar and piano player. This site is a
