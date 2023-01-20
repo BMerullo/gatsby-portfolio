@@ -21,7 +21,7 @@ export default function Home() {
             people around me. My creative interests and collaborative nature
             extends beyond Web Development in many ways, most of all in my
             interest in music as a guitar and piano player. This site is a
-            collection of some of my professional works and projects.
+            collection of some of my professional works and personal projects.
           </h3>
           <div className="color-box-container">
             <div className="color-box">
