@@ -5,6 +5,7 @@ import hamburgerImg from "../assets/images/hamburger.png"
 import emailImg from "../assets/images/email-img.png"
 import linkedinImg from "../assets/images/linkedin-img.png"
 import githubImg from "../assets/images/github-img.png"
+import xImg from "../assets/images/x.png"
 
 const NavBar = props => {
   const [hamburger, setHamburger] = useState(false)
@@ -99,7 +100,7 @@ const NavBar = props => {
             <input
               className="menu-btn-img"
               type="image"
-              src={hamburgerImg}
+              src={hamburger === false ? hamburgerImg : xImg}
               alt="menu"
               onClick={hamburgerHandler}
             />
