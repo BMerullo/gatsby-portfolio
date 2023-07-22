@@ -295,6 +295,7 @@ footer {
 
 #home-page {
   display: flex;
+  padding-bottom: 20px;
 }
 
 .color-box-container {
@@ -324,7 +325,6 @@ footer {
 
 .about-txt {
   flex: 3;
-  border-radius: 1rem;
 }
 
 .featured-scroll {
@@ -412,7 +412,7 @@ footer {
 }
 
 .skill-title {
-  margin-left: 50px;
+  /* margin-left: 50px; */
   /* color: #666; */
 }
 
@@ -433,6 +433,9 @@ footer {
 @media only screen and (max-width: 500px) {
   #home-page {
     display: block;
+  }
+  .skill-title {
+    margin: auto;
   }
 
   .project-info {
