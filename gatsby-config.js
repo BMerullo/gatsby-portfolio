@@ -18,6 +18,7 @@ module.exports = {
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
+
     {
       resolve: `gatsby-plugin-webfonts`,
       options: {
@@ -31,6 +32,7 @@ module.exports = {
         },
       },
     },
+
     {
       resolve: `gatsby-source-contentful`,
       options: {

@@ -8,13 +8,13 @@ body {
   height: 100vh;
   font-family: "Carrois Gothic", sarif;
   /* background-color: #d6dbe3; */
+  background-color: rgb(241, 241, 241);
 }
 
 main {
   margin: auto;
   padding-top: 30px;
   width: 70%;
-  /* height: 200vh; */
 }
 
 ul {
@@ -301,7 +301,7 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 50vh;
+  margin-top: 20px;
 }
 
 .color-box {
@@ -313,6 +313,10 @@ footer {
   justify-content: space-around;
   align-items: center;
 }
+.color-box:hover {
+  cursor: pointer;
+  scale: 1.1;
+}
 
 .computer-img {
   height: 25vh;
@@ -320,7 +324,7 @@ footer {
 
 .about-txt {
   flex: 3;
-  padding-right: 100px;
+  border-radius: 1rem;
 }
 
 .featured-scroll {
@@ -405,6 +409,11 @@ footer {
 .info-link {
   color: white;
   font-size: medium;
+}
+
+.skill-title {
+  margin-left: 50px;
+  /* color: #666; */
 }
 
 @media only screen and (max-width: 400px) {
@@ -521,5 +530,14 @@ footer {
   }
   .featured-img {
     height: 100%;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .skills {
+    margin: 0px 50px;
+  }
+  .about-txt {
+    margin-right: 70px;
   }
 }

@@ -1,0 +1,12 @@
+.skillsContainer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.skill {
+  width: 70px;
+  margin: 20px;
+  border-radius: 50px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
