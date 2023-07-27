@@ -314,17 +314,17 @@ footer {
 .color-box {
   border-radius: 10px 100px / 120px;
   background-color: dodgerblue;
-  height: 30vh;
-  width: 55%;
+  /* height: 30vh;
+  width: 55%; */
   display: flex;
   justify-content: space-around;
   margin: auto;
   align-items: center;
   border: 15px solid black;
 }
-/* .color-flex {
-  font-family: Georgia, "Times New Roman", Times, serif;
-} */
+.color-flex {
+  padding: 20px;
+}
 .modal-container {
   display: flex;
   justify-content: right;
