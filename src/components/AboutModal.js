@@ -98,7 +98,7 @@ const AboutModal = () => {
   return (
     <>
       <>
-        <Button variant="outline-light" onClick={() => setModalShow(true)}>
+        <Button variant="outline-dark" onClick={() => setModalShow(true)}>
           Learn More
         </Button>
 
