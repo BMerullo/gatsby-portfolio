@@ -303,6 +303,7 @@ footer {
   justify-content: space-around;
   align-items: center;
   margin-top: 20px;
+  margin-bottom: 40px;
 }
 
 .color-box {
@@ -312,11 +313,16 @@ footer {
   width: 55%;
   display: flex;
   justify-content: space-around;
+  margin: auto;
   align-items: center;
 }
-.color-box:hover {
-  cursor: pointer;
-  scale: 1.1;
+/* .color-flex {
+  font-family: Georgia, "Times New Roman", Times, serif;
+} */
+.modal-container {
+  display: flex;
+  justify-content: right;
+  padding-top: 40px;
 }
 
 .computer-img {
@@ -411,10 +417,10 @@ footer {
   font-size: medium;
 }
 
-.skill-title {
-  /* margin-left: 50px; */
-  /* color: #666; */
-}
+/* .skill-title {
+  margin-left: 50px; */
+/* color: #666;
+} */
 
 @media only screen and (max-width: 400px) {
   .featured-img-container {

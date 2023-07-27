@@ -1,7 +1,7 @@
 import React from "react"
+import AboutModal from "../components/AboutModal"
 import FeaturedProjects from "../components/FeaturedProjects"
 import Layout from "../components/Layout"
-import computer from "../assets/images/computer.png"
 import SEO from "../components/SEO"
 import SkillsSection from "../components/SkillsSection"
 
@@ -13,10 +13,15 @@ export default function Home() {
         <section className="about-txt">
           <article className="color-box-container">
             <div className="color-box">
-              <img src={computer} alt="computer" className="computer-img" />
+              <div className="color-flex">
+                <h2>Bob Merullo</h2>
+                <h3>JavaScript Developer</h3>
+                <div className="modal-container">
+                  <AboutModal className="modal" />
+                </div>
+              </div>
             </div>
           </article>
-          <h2 className="skill-title">Skills</h2>
           <article className="skills">
             <SkillsSection />
           </article>
