@@ -11,6 +11,10 @@
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
+.skill:hover {
+  scale: 1.7;
+}
+
 @media only screen and (max-width: 500px) {
   .skill {
     width: 50px;
