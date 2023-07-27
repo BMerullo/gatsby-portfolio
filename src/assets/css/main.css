@@ -264,7 +264,12 @@ footer {
   margin: auto;
   background-color: transparent;
   display: flex;
+  justify-content: space-between;
   padding: 30px 0px;
+}
+
+.footer-links {
+  display: flex;
 }
 
 .footer-li {
@@ -315,6 +320,7 @@ footer {
   justify-content: space-around;
   margin: auto;
   align-items: center;
+  border: 15px solid black;
 }
 /* .color-flex {
   font-family: Georgia, "Times New Roman", Times, serif;
