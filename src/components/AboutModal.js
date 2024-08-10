@@ -19,13 +19,13 @@ function MyVerticallyCenteredModal(props) {
       <Modal.Body>
         <h3>JavaScript Developer</h3>
         <p>
-          Hello, I am Bob Merullo, a passionate and skilled JavaScript Developer
-          with three years of experience specializing in MERN (MongoDB,
-          Express.js, React.js, Node.js), Gatsby, Node.js, and WordPress.
-          Throughout my journey as a developer, I have worked on a wide range of
-          projects, from building interactive web applications to creating
-          stunning websites. Let me take you on a tour of my portfolio, where
-          you can explore some of my most exciting and challenging work.
+          Hello, I am Bob Merullo, a passionate and skilled Web Developer with
+          three years of experience specializing in MERN (MongoDB, Express.js,
+          React.js, Node.js), Gatsby, Node.js, and WordPress. Throughout my
+          journey as a developer, I have worked on a wide range of projects,
+          from building interactive web applications to creating stunning
+          websites. Let me take you on a tour of my portfolio, where you can
+          explore some of my most exciting and challenging work.
         </p>
         <h5>Frontend Technologies:</h5>
         <p>
@@ -36,17 +36,17 @@ function MyVerticallyCenteredModal(props) {
         </p>
         <h5>Problem-Solving and Collaboration:</h5>
         <p>
-          As a JavaScript Developer, I take great pride in my problem-solving
-          abilities and my effectiveness in team environments. When faced with
-          challenges, I approach them with a methodical and analytical mindset,
-          breaking down complex issues into manageable steps. My technical
-          expertise in JavaScript and related frameworks allows me to develop
-          innovative solutions that address the core of the problem. Working in
-          a team setting comes naturally to me, and I thrive on collaborative
-          efforts. I actively engage in discussions, sharing my insights and
-          valuing the contributions of my teammates. I believe open
-          communication is key to success, and I make sure to convey my ideas
-          clearly and listen attentively to others' perspectives.
+          As a Web Developer, I take great pride in my problem-solving abilities
+          and my effectiveness in team environments. When faced with challenges,
+          I approach them with a methodical and analytical mindset, breaking
+          down complex issues into manageable steps. My technical expertise in
+          JavaScript and related frameworks allows me to develop innovative
+          solutions that address the core of the problem. Working in a team
+          setting comes naturally to me, and I thrive on collaborative efforts.
+          I actively engage in discussions, sharing my insights and valuing the
+          contributions of my teammates. I believe open communication is key to
+          success, and I make sure to convey my ideas clearly and listen
+          attentively to others' perspectives.
         </p>
         <h5>MERN Stack Development:</h5>
         <p>
