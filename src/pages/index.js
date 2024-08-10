@@ -15,7 +15,7 @@ export default function Home() {
             <div className="color-box">
               <div className="color-flex">
                 <h2>Bob Merullo</h2>
-                <h4>JavaScript Developer</h4>
+                <h4>Web Developer</h4>
                 <div className="modal-container">
                   <AboutModal className="modal" />
                 </div>
