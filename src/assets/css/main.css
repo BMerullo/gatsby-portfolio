@@ -314,8 +314,8 @@ footer {
 .color-box {
   border-radius: 10px 100px / 120px;
   background-color: dodgerblue;
-  /* height: 30vh;
-  width: 55%; */
+  height: 30vh;
+  width: 55%;
   display: flex;
   justify-content: space-around;
   margin: auto;
@@ -455,7 +455,7 @@ footer {
     border-radius: 0px;
   }
   .color-box {
-    width: 85%;
+    width: 100%;
   }
   .computer-img {
     height: 20vh;
