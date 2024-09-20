@@ -327,7 +327,7 @@ footer {
 }
 .modal-container {
   display: flex;
-  justify-content: right;
+  justify-content: center;
   padding-top: 40px;
 }
 
