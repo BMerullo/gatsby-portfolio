@@ -17,7 +17,7 @@ function MyVerticallyCenteredModal(props) {
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <h3>Web Dev</h3>
+        <h3>Web Developer</h3>
         <p>
           Hello, I am Bob Merullo, a passionate and skilled Web Developer with
           three years of experience specializing in MERN (MongoDB, Express.js,
