@@ -20,7 +20,7 @@ function MyVerticallyCenteredModal(props) {
         <h3>Web Developer</h3>
         <p>
           Hello, I am Bob Merullo, a passionate and skilled Web Developer with
-          three years of experience specializing in MERN (MongoDB, Express.js,
+          six years of experience specializing in MERN (MongoDB, Express.js,
           React.js, Node.js), Gatsby, Node.js, and WordPress. Throughout my
           journey as a developer, I have worked on a wide range of projects,
           from building interactive web applications to creating stunning
